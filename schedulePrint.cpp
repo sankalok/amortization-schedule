@@ -2,6 +2,8 @@
 #include <iomanip>
 #include <cmath>
 #include <string>
+#include <cstdlib>
+#include <Windows.h>
 
 #include "scheduleprint.h"
 
@@ -31,6 +33,7 @@ void schedule(double principal, double interestRate, int installments, double pa
         cout << setw(15) << abs(payment - interest);
         cout << setw(15) << abs(principal - abs(payment - interest));
         cout << endl;
+        Sleep(200);
         principal = principal - abs(payment - interest);
     }
 }
