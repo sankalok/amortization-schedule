@@ -19,7 +19,7 @@ Example:
 
 ## ... ##
 
-<img src="amort_1.png" alt="amort_1" width="1500"/>
+<img src="amort_1.png" alt="amort_1" width="1800"/>
 
 ## ... ##
 
