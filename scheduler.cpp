@@ -6,6 +6,7 @@
 #include <algorithm>
 
 #include "introductiontextgenerator.h"
+#include "scheduleprint.h"
 
 #define MONTHS_IN_YEAR 12
 #define PERCENTILE 100
@@ -46,4 +47,6 @@ int main(int argc, char* argv[]) {
     int len = strlen("Rate of Interest (in % p.a.)") + max_len + 9;
     printIntroductionText(principal, rate_of_interest, number_of_years, max_len);
     double payment = calculatePayment(principal, rate_of_interest, number_of_years, len, max_len);
+
+    schedule(principal, (rate_of_interest / PERCENTILE) / MONTHS_IN_YEAR, number_of_years * MONTHS_IN_YEAR, payment);
 }

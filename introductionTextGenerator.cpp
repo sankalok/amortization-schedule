@@ -1,7 +1,9 @@
 #include <iostream>
 #include <cstring>
 #include <iomanip>
+
 #include "introductiontextgenerator.h"
+
 using namespace std;
 
 void printIntroductionText(double p, double roi, int y, int l) {
