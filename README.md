@@ -15,7 +15,7 @@ Example:
 
 # Outputs and Viz (BASED ON EXAMPLE):
 
-<img src="plot.png" alt="viz_plot" width="1300"/>
+<img src="plot.png" alt="viz_plot" width="1000"/>
 
 ## ... ##
 
